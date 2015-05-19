@@ -1,0 +1,10 @@
+E:\baza\Program\Program\Program\bin\Debug\Program.exe.config
+E:\baza\Program\Program\Program\bin\Debug\Program.exe
+E:\baza\Program\Program\Program\bin\Debug\Program.pdb
+E:\baza\Program\Program\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+E:\baza\Program\Program\Program\obj\Debug\Program.Form1.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.Properties.Resources.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.csproj.GenerateResource.Cache
+E:\baza\Program\Program\Program\obj\Debug\Program.exe
+E:\baza\Program\Program\Program\obj\Debug\Program.pdb
+E:\baza\Program\Program\Program\obj\Debug\Program.Form2.resources
