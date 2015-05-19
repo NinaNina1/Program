@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Program
 {
-    public partial class KreirajDomacicu : Form
+    public partial class ListaKorisnika : Form
     {
-        public KreirajDomacicu()
+        public ListaKorisnika()
         {
             InitializeComponent();
         }

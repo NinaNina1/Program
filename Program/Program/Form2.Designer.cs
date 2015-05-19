@@ -1,6 +1,6 @@
 ﻿namespace Program
 {
-    partial class Form2
+    partial class KreirajKorisnika
     {
         /// <summary>
         /// Required designer variable.
@@ -42,14 +42,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Kreiraj Novog Korisnika";
             // 
-            // Form2
+            // KreirajKorisnika
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(930, 559);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "KreirajKorisnika";
             this.Text = "Novi Korisnik";
             this.ResumeLayout(false);
             this.PerformLayout();

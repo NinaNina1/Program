@@ -1,6 +1,6 @@
 ﻿namespace Program
 {
-    partial class Form3
+    partial class KreirajDomacicu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbIme = new System.Windows.Forms.TextBox();
+            this.tbPrezime = new System.Windows.Forms.TextBox();
+            this.tbDevojackoPrezime = new System.Windows.Forms.TextBox();
+            this.tbJMBG = new System.Windows.Forms.TextBox();
+            this.tbBrojLicne = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,14 +41,35 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbAdresa = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tbTelefon = new System.Windows.Forms.TextBox();
+            this.tbMobilni = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tbObrazovanje = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tbRadnoIskustvo = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cbPusac = new System.Windows.Forms.CheckBox();
+            this.cbAlergije = new System.Windows.Forms.CheckBox();
+            this.tbAlergije = new System.Windows.Forms.TextBox();
+            this.cbFizickaOgrc = new System.Windows.Forms.CheckBox();
+            this.tbFizickaOgrc = new System.Windows.Forms.TextBox();
+            this.cbZdravstveniProb = new System.Windows.Forms.CheckBox();
+            this.tbZdravstveniProblemi = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.tbOdbijaDaRadi = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tbHobi = new System.Windows.Forms.TextBox();
+            this.btOdbijena = new System.Windows.Forms.Button();
+            this.btPrihvacena = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -63,40 +84,40 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Kreiraj Novu Gerontodomaćicu";
             // 
-            // textBox1
+            // tbIme
             // 
-            this.textBox1.Location = new System.Drawing.Point(45, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 20);
-            this.textBox1.TabIndex = 3;
+            this.tbIme.Location = new System.Drawing.Point(45, 91);
+            this.tbIme.Name = "tbIme";
+            this.tbIme.Size = new System.Drawing.Size(148, 20);
+            this.tbIme.TabIndex = 3;
             // 
-            // textBox2
+            // tbPrezime
             // 
-            this.textBox2.Location = new System.Drawing.Point(221, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 20);
-            this.textBox2.TabIndex = 4;
+            this.tbPrezime.Location = new System.Drawing.Point(221, 91);
+            this.tbPrezime.Name = "tbPrezime";
+            this.tbPrezime.Size = new System.Drawing.Size(148, 20);
+            this.tbPrezime.TabIndex = 4;
             // 
-            // textBox3
+            // tbDevojackoPrezime
             // 
-            this.textBox3.Location = new System.Drawing.Point(45, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 20);
-            this.textBox3.TabIndex = 5;
+            this.tbDevojackoPrezime.Location = new System.Drawing.Point(45, 143);
+            this.tbDevojackoPrezime.Name = "tbDevojackoPrezime";
+            this.tbDevojackoPrezime.Size = new System.Drawing.Size(148, 20);
+            this.tbDevojackoPrezime.TabIndex = 5;
             // 
-            // textBox4
+            // tbJMBG
             // 
-            this.textBox4.Location = new System.Drawing.Point(45, 249);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 20);
-            this.textBox4.TabIndex = 6;
+            this.tbJMBG.Location = new System.Drawing.Point(45, 249);
+            this.tbJMBG.Name = "tbJMBG";
+            this.tbJMBG.Size = new System.Drawing.Size(148, 20);
+            this.tbJMBG.TabIndex = 6;
             // 
-            // textBox5
+            // tbBrojLicne
             // 
-            this.textBox5.Location = new System.Drawing.Point(221, 249);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(148, 20);
-            this.textBox5.TabIndex = 7;
+            this.tbBrojLicne.Location = new System.Drawing.Point(221, 249);
+            this.tbBrojLicne.Name = "tbBrojLicne";
+            this.tbBrojLicne.Size = new System.Drawing.Size(148, 20);
+            this.tbBrojLicne.TabIndex = 7;
             // 
             // dateTimePicker1
             // 
@@ -177,13 +198,13 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Broj Lične Karte";
             // 
-            // textBox6
+            // tbAdresa
             // 
-            this.textBox6.Location = new System.Drawing.Point(45, 306);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(226, 134);
-            this.textBox6.TabIndex = 15;
+            this.tbAdresa.Location = new System.Drawing.Point(45, 306);
+            this.tbAdresa.Multiline = true;
+            this.tbAdresa.Name = "tbAdresa";
+            this.tbAdresa.Size = new System.Drawing.Size(226, 134);
+            this.tbAdresa.TabIndex = 15;
             // 
             // label8
             // 
@@ -197,19 +218,19 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Adresa/Prebivalište";
             // 
-            // textBox7
+            // tbTelefon
             // 
-            this.textBox7.Location = new System.Drawing.Point(45, 469);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(148, 20);
-            this.textBox7.TabIndex = 17;
+            this.tbTelefon.Location = new System.Drawing.Point(45, 469);
+            this.tbTelefon.Name = "tbTelefon";
+            this.tbTelefon.Size = new System.Drawing.Size(148, 20);
+            this.tbTelefon.TabIndex = 17;
             // 
-            // textBox8
+            // tbMobilni
             // 
-            this.textBox8.Location = new System.Drawing.Point(221, 469);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(148, 20);
-            this.textBox8.TabIndex = 18;
+            this.tbMobilni.Location = new System.Drawing.Point(221, 469);
+            this.tbMobilni.Name = "tbMobilni";
+            this.tbMobilni.Size = new System.Drawing.Size(148, 20);
+            this.tbMobilni.TabIndex = 18;
             // 
             // label9
             // 
@@ -235,12 +256,12 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Mobilni";
             // 
-            // textBox9
+            // tbEmail
             // 
-            this.textBox9.Location = new System.Drawing.Point(45, 515);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(223, 20);
-            this.textBox9.TabIndex = 21;
+            this.tbEmail.Location = new System.Drawing.Point(45, 515);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(223, 20);
+            this.tbEmail.TabIndex = 21;
             // 
             // label11
             // 
@@ -254,20 +275,248 @@
             this.label11.TabIndex = 22;
             this.label11.Text = "Email";
             // 
-            // Form3
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.pictureBox1.Location = new System.Drawing.Point(473, 91);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(10, 423);
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
+            this.label12.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.label12.Location = new System.Drawing.Point(510, 71);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(76, 17);
+            this.label12.TabIndex = 24;
+            this.label12.Text = "Obrazovanje";
+            // 
+            // tbObrazovanje
+            // 
+            this.tbObrazovanje.Location = new System.Drawing.Point(513, 91);
+            this.tbObrazovanje.Multiline = true;
+            this.tbObrazovanje.Name = "tbObrazovanje";
+            this.tbObrazovanje.Size = new System.Drawing.Size(173, 49);
+            this.tbObrazovanje.TabIndex = 25;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
+            this.label13.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.label13.Location = new System.Drawing.Point(719, 71);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(90, 17);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "Radno Iskustvo";
+            // 
+            // tbRadnoIskustvo
+            // 
+            this.tbRadnoIskustvo.Location = new System.Drawing.Point(722, 91);
+            this.tbRadnoIskustvo.Multiline = true;
+            this.tbRadnoIskustvo.Name = "tbRadnoIskustvo";
+            this.tbRadnoIskustvo.Size = new System.Drawing.Size(173, 49);
+            this.tbRadnoIskustvo.TabIndex = 27;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
+            this.label14.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.label14.Location = new System.Drawing.Point(510, 156);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 17);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "Pušač";
+            // 
+            // cbPusac
+            // 
+            this.cbPusac.AutoSize = true;
+            this.cbPusac.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbPusac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.cbPusac.Location = new System.Drawing.Point(513, 158);
+            this.cbPusac.Name = "cbPusac";
+            this.cbPusac.Size = new System.Drawing.Size(60, 21);
+            this.cbPusac.TabIndex = 29;
+            this.cbPusac.Text = "Pušač";
+            this.cbPusac.UseVisualStyleBackColor = true;
+            // 
+            // cbAlergije
+            // 
+            this.cbAlergije.AutoSize = true;
+            this.cbAlergije.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbAlergije.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.cbAlergije.Location = new System.Drawing.Point(513, 185);
+            this.cbAlergije.Name = "cbAlergije";
+            this.cbAlergije.Size = new System.Drawing.Size(72, 21);
+            this.cbAlergije.TabIndex = 30;
+            this.cbAlergije.Text = "Alergije";
+            this.cbAlergije.UseVisualStyleBackColor = true;
+            // 
+            // tbAlergije
+            // 
+            this.tbAlergije.Location = new System.Drawing.Point(747, 185);
+            this.tbAlergije.Multiline = true;
+            this.tbAlergije.Name = "tbAlergije";
+            this.tbAlergije.Size = new System.Drawing.Size(148, 20);
+            this.tbAlergije.TabIndex = 31;
+            this.tbAlergije.Text = "Ako da, navedite";
+            // 
+            // cbFizickaOgrc
+            // 
+            this.cbFizickaOgrc.AutoSize = true;
+            this.cbFizickaOgrc.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbFizickaOgrc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.cbFizickaOgrc.Location = new System.Drawing.Point(514, 212);
+            this.cbFizickaOgrc.Name = "cbFizickaOgrc";
+            this.cbFizickaOgrc.Size = new System.Drawing.Size(134, 21);
+            this.cbFizickaOgrc.TabIndex = 32;
+            this.cbFizickaOgrc.Text = "Fizička Ograničenja";
+            this.cbFizickaOgrc.UseVisualStyleBackColor = true;
+            // 
+            // tbFizickaOgrc
+            // 
+            this.tbFizickaOgrc.Location = new System.Drawing.Point(747, 211);
+            this.tbFizickaOgrc.Multiline = true;
+            this.tbFizickaOgrc.Name = "tbFizickaOgrc";
+            this.tbFizickaOgrc.Size = new System.Drawing.Size(148, 20);
+            this.tbFizickaOgrc.TabIndex = 33;
+            this.tbFizickaOgrc.Text = "Ako da, navedite";
+            // 
+            // cbZdravstveniProb
+            // 
+            this.cbZdravstveniProb.AutoSize = true;
+            this.cbZdravstveniProb.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbZdravstveniProb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.cbZdravstveniProb.Location = new System.Drawing.Point(513, 239);
+            this.cbZdravstveniProb.Name = "cbZdravstveniProb";
+            this.cbZdravstveniProb.Size = new System.Drawing.Size(142, 21);
+            this.cbZdravstveniProb.TabIndex = 34;
+            this.cbZdravstveniProb.Text = "Zdravstveni Problemi";
+            this.cbZdravstveniProb.UseVisualStyleBackColor = true;
+            // 
+            // tbZdravstveniProblemi
+            // 
+            this.tbZdravstveniProblemi.Location = new System.Drawing.Point(747, 240);
+            this.tbZdravstveniProblemi.Multiline = true;
+            this.tbZdravstveniProblemi.Name = "tbZdravstveniProblemi";
+            this.tbZdravstveniProblemi.Size = new System.Drawing.Size(148, 20);
+            this.tbZdravstveniProblemi.TabIndex = 35;
+            this.tbZdravstveniProblemi.Text = "Ako da, navedite";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
+            this.label15.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.label15.Location = new System.Drawing.Point(510, 306);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(33, 17);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Hobi";
+            // 
+            // tbOdbijaDaRadi
+            // 
+            this.tbOdbijaDaRadi.Location = new System.Drawing.Point(747, 267);
+            this.tbOdbijaDaRadi.Name = "tbOdbijaDaRadi";
+            this.tbOdbijaDaRadi.Size = new System.Drawing.Size(148, 20);
+            this.tbOdbijaDaRadi.TabIndex = 37;
+            this.tbOdbijaDaRadi.Text = "Ako postoji nešto, navedite";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
+            this.label16.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.label16.Location = new System.Drawing.Point(510, 306);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(0, 17);
+            this.label16.TabIndex = 38;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.checkBox1.Location = new System.Drawing.Point(514, 266);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(104, 21);
+            this.checkBox1.TabIndex = 39;
+            this.checkBox1.Text = "Odbija da radi";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // tbHobi
+            // 
+            this.tbHobi.Location = new System.Drawing.Point(747, 306);
+            this.tbHobi.Name = "tbHobi";
+            this.tbHobi.Size = new System.Drawing.Size(148, 20);
+            this.tbHobi.TabIndex = 40;
+            // 
+            // btOdbijena
+            // 
+            this.btOdbijena.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btOdbijena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.btOdbijena.Location = new System.Drawing.Point(751, 519);
+            this.btOdbijena.Name = "btOdbijena";
+            this.btOdbijena.Size = new System.Drawing.Size(144, 28);
+            this.btOdbijena.TabIndex = 41;
+            this.btOdbijena.Text = "Odbijena";
+            this.btOdbijena.UseVisualStyleBackColor = true;
+            // 
+            // btPrihvacena
+            // 
+            this.btPrihvacena.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPrihvacena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.btPrihvacena.Location = new System.Drawing.Point(579, 519);
+            this.btPrihvacena.Name = "btPrihvacena";
+            this.btPrihvacena.Size = new System.Drawing.Size(144, 28);
+            this.btPrihvacena.TabIndex = 42;
+            this.btPrihvacena.Text = "Prihvaćena";
+            this.btPrihvacena.UseVisualStyleBackColor = true;
+            // 
+            // KreirajDomacicu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(151)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(930, 559);
+            this.Controls.Add(this.btPrihvacena);
+            this.Controls.Add(this.btOdbijena);
+            this.Controls.Add(this.tbHobi);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.tbOdbijaDaRadi);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.tbZdravstveniProblemi);
+            this.Controls.Add(this.cbZdravstveniProb);
+            this.Controls.Add(this.tbFizickaOgrc);
+            this.Controls.Add(this.cbFizickaOgrc);
+            this.Controls.Add(this.tbAlergije);
+            this.Controls.Add(this.cbAlergije);
+            this.Controls.Add(this.cbPusac);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.tbRadnoIskustvo);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.tbObrazovanje);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.tbEmail);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.tbMobilni);
+            this.Controls.Add(this.tbTelefon);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.tbAdresa);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -275,14 +524,16 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbBrojLicne);
+            this.Controls.Add(this.tbJMBG);
+            this.Controls.Add(this.tbDevojackoPrezime);
+            this.Controls.Add(this.tbPrezime);
+            this.Controls.Add(this.tbIme);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "KreirajDomacicu";
             this.Text = "Nova Gerontodomaćica";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,11 +542,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbIme;
+        private System.Windows.Forms.TextBox tbPrezime;
+        private System.Windows.Forms.TextBox tbDevojackoPrezime;
+        private System.Windows.Forms.TextBox tbJMBG;
+        private System.Windows.Forms.TextBox tbBrojLicne;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -303,13 +554,33 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbAdresa;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tbTelefon;
+        private System.Windows.Forms.TextBox tbMobilni;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox tbObrazovanje;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox tbRadnoIskustvo;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.CheckBox cbPusac;
+        private System.Windows.Forms.CheckBox cbAlergije;
+        private System.Windows.Forms.TextBox tbAlergije;
+        private System.Windows.Forms.CheckBox cbFizickaOgrc;
+        private System.Windows.Forms.TextBox tbFizickaOgrc;
+        private System.Windows.Forms.CheckBox cbZdravstveniProb;
+        private System.Windows.Forms.TextBox tbZdravstveniProblemi;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox tbOdbijaDaRadi;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox tbHobi;
+        private System.Windows.Forms.Button btOdbijena;
+        private System.Windows.Forms.Button btPrihvacena;
     }
 }
