@@ -8,3 +8,4 @@ E:\baza\Program\Program\Program\obj\Debug\Program.csproj.GenerateResource.Cache
 E:\baza\Program\Program\Program\obj\Debug\Program.exe
 E:\baza\Program\Program\Program\obj\Debug\Program.pdb
 E:\baza\Program\Program\Program\obj\Debug\Program.Form2.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.Form3.resources
