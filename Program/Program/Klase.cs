@@ -12,8 +12,8 @@ namespace Program
         public string prezime;
         public string dprezime;
         public DateTime dtmrodjenja;
-        public long JMBG;
-        public long BrLK;
+        public string JMBG;
+        public string BrLK;
         public string Adresa;
         public string brTel;
         public string brMobTel;
@@ -22,7 +22,7 @@ namespace Program
         public string radnoIskustvo;
         public string hobi;
         public bulstring alergije, FOgranicenja, ZdrProb, OdbRadi;
-        public Gdomacica(string ime, string prezime, string dprezime, DateTime dtmrodjenja, long JMBG, long BrLK, string Adresa, string brTel, string brMobTel, string email, string obrazovanje, string radnoIskustvo, string hobi, bulstring alergije, bulstring FOgranicenja, bulstring ZdrProb, bulstring OdbRadi)
+        public Gdomacica(string ime, string prezime, string dprezime, DateTime dtmrodjenja, string JMBG, string BrLK, string Adresa, string brTel, string brMobTel, string email, string obrazovanje, string radnoIskustvo, string hobi, bulstring alergije, bulstring FOgranicenja, bulstring ZdrProb, bulstring OdbRadi)
         {
             this.ime = ime;
             this.prezime = prezime;
@@ -54,6 +54,11 @@ namespace Program
     {
         public string tekst;
         public bool bul;
+        public bulstring (bool bul, string tekst)
+        {
+            this.tekst = tekst;
+            this.bul = bul;
+        }
     }
 
 }

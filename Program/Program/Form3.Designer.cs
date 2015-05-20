@@ -65,7 +65,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.tbOdbijaDaRadi = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbOdbija = new System.Windows.Forms.CheckBox();
             this.tbHobi = new System.Windows.Forms.TextBox();
             this.btOdbijena = new System.Windows.Forms.Button();
             this.btPrihvacena = new System.Windows.Forms.Button();
@@ -111,6 +111,8 @@
             this.tbJMBG.Name = "tbJMBG";
             this.tbJMBG.Size = new System.Drawing.Size(148, 20);
             this.tbJMBG.TabIndex = 6;
+            this.tbJMBG.TextChanged += new System.EventHandler(this.tbJMBG_TextChanged);
+            this.tbJMBG.Validating += new System.ComponentModel.CancelEventHandler(this.tbJMBG_Validating);
             // 
             // tbBrojLicne
             // 
@@ -118,6 +120,8 @@
             this.tbBrojLicne.Name = "tbBrojLicne";
             this.tbBrojLicne.Size = new System.Drawing.Size(148, 20);
             this.tbBrojLicne.TabIndex = 7;
+            this.tbBrojLicne.TextChanged += new System.EventHandler(this.tbBrojLicne_TextChanged);
+            this.tbBrojLicne.Validating += new System.ComponentModel.CancelEventHandler(this.tbBrojLicne_Validating);
             // 
             // dateTimePicker1
             // 
@@ -240,7 +244,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label9.Location = new System.Drawing.Point(42, 449);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 17);
+            this.label9.Size = new System.Drawing.Size(49, 17);
             this.label9.TabIndex = 19;
             this.label9.Text = "Telefon";
             // 
@@ -442,17 +446,17 @@
             this.label16.Size = new System.Drawing.Size(0, 17);
             this.label16.TabIndex = 38;
             // 
-            // checkBox1
+            // cbOdbija
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
-            this.checkBox1.Location = new System.Drawing.Point(514, 266);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(104, 21);
-            this.checkBox1.TabIndex = 39;
-            this.checkBox1.Text = "Odbija da radi";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbOdbija.AutoSize = true;
+            this.cbOdbija.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbOdbija.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.cbOdbija.Location = new System.Drawing.Point(514, 266);
+            this.cbOdbija.Name = "cbOdbija";
+            this.cbOdbija.Size = new System.Drawing.Size(104, 21);
+            this.cbOdbija.TabIndex = 39;
+            this.cbOdbija.Text = "Odbija da radi";
+            this.cbOdbija.UseVisualStyleBackColor = true;
             // 
             // tbHobi
             // 
@@ -482,6 +486,7 @@
             this.btPrihvacena.TabIndex = 42;
             this.btPrihvacena.Text = "Prihvaćena";
             this.btPrihvacena.UseVisualStyleBackColor = true;
+            this.btPrihvacena.Click += new System.EventHandler(this.btPrihvacena_Click);
             // 
             // KreirajDomacicu
             // 
@@ -492,7 +497,7 @@
             this.Controls.Add(this.btPrihvacena);
             this.Controls.Add(this.btOdbijena);
             this.Controls.Add(this.tbHobi);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cbOdbija);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.tbOdbijaDaRadi);
             this.Controls.Add(this.label15);
@@ -578,7 +583,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox tbOdbijaDaRadi;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbOdbija;
         private System.Windows.Forms.TextBox tbHobi;
         private System.Windows.Forms.Button btOdbijena;
         private System.Windows.Forms.Button btPrihvacena;

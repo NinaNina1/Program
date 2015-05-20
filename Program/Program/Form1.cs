@@ -6,12 +6,32 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Program
 {
+
     public partial class Form1 : Form
     {
+        void ucitaj(string ucitajtxt)
+        {
+            try
+            {
+                if (!File.Exists(ucitajtxt))
+		        {
+                    File.Create(ucitajtxt);
+		        }
+                
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+            StreamReader sr = new StreamReader(ucitajtxt);
+            return;
+        }
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +47,11 @@ namespace Program
             KreirajDomacicu kd = new KreirajDomacicu();
             kd.Show();
            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
