@@ -7,8 +7,6 @@ E:\baza\Program\Program\Program\obj\Debug\Program.Properties.Resources.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.csproj.GenerateResource.Cache
 E:\baza\Program\Program\Program\obj\Debug\Program.exe
 E:\baza\Program\Program\Program\obj\Debug\Program.pdb
-E:\baza\Program\Program\Program\obj\Debug\Program.Form2.resources
-E:\baza\Program\Program\Program\obj\Debug\Program.Form3.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\bin\Debug\Program.exe.config
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.exe
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.pdb
@@ -22,3 +20,7 @@ C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Postoj
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.ListaKorisnika.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Properties.Resources.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.csproj.GenerateResource.Cache
+E:\baza\Program\Program\Program\obj\Debug\Program.KreirajKorisnika.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.KreirajDomacicu.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.PostojecaDomacica.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.ListaKorisnika.resources
