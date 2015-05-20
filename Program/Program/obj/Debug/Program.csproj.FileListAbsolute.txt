@@ -9,3 +9,6 @@ E:\baza\Program\Program\Program\obj\Debug\Program.exe
 E:\baza\Program\Program\Program\obj\Debug\Program.pdb
 E:\baza\Program\Program\Program\obj\Debug\Program.Form2.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.Form3.resources
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\bin\Debug\Program.exe.config
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.exe
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.pdb
