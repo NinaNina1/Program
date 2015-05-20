@@ -92,6 +92,7 @@
             this.btKorisnik.TabIndex = 4;
             this.btKorisnik.Text = "Novi Korisnik";
             this.btKorisnik.UseVisualStyleBackColor = true;
+            this.btKorisnik.Click += new System.EventHandler(this.btKorisnik_Click);
             // 
             // btDomacica
             // 

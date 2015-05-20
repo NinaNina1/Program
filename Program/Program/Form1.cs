@@ -53,5 +53,11 @@ namespace Program
         {
             
         }
+
+        private void btKorisnik_Click(object sender, EventArgs e)
+        {
+            KreirajKorisnika kk = new KreirajKorisnika();
+            kk.Show();
+        }
     }
 }

@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Program
 {
-    public partial class PostojecaDomacica : Form
+    public partial class Form5 : Form
     {
-        public PostojecaDomacica()
+        public Form5()
         {
             InitializeComponent();
-        }
-
-        private void btKorisnik_Click(object sender, EventArgs e)
-        {
-            ListaKorisnika lk = new ListaKorisnika();
-            lk.Show();
         }
     }
 }

@@ -142,7 +142,7 @@
             this.cbZdravstveniProb.Name = "cbZdravstveniProb";
             this.cbZdravstveniProb.Size = new System.Drawing.Size(142, 21);
             this.cbZdravstveniProb.TabIndex = 74;
-            this.cbZdravstveniProb.Text = "Zdravstveni Problemi";
+            this.cbZdravstveniProb.Text = "Zdravstveni problemi";
             this.cbZdravstveniProb.UseVisualStyleBackColor = true;
             // 
             // tbFizickaOgrc
@@ -162,7 +162,7 @@
             this.cbFizickaOgrc.Name = "cbFizickaOgrc";
             this.cbFizickaOgrc.Size = new System.Drawing.Size(134, 21);
             this.cbFizickaOgrc.TabIndex = 72;
-            this.cbFizickaOgrc.Text = "Fizička Ograničenja";
+            this.cbFizickaOgrc.Text = "Fizička ograničenja";
             this.cbFizickaOgrc.UseVisualStyleBackColor = true;
             // 
             // tbAlergije
@@ -227,7 +227,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 17);
             this.label13.TabIndex = 66;
-            this.label13.Text = "Radno Iskustvo";
+            this.label13.Text = "Radno iskustvo";
             // 
             // tbObrazovanje
             // 
@@ -343,9 +343,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label7.Location = new System.Drawing.Point(216, 224);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(94, 17);
+            this.label7.Size = new System.Drawing.Size(92, 17);
             this.label7.TabIndex = 54;
-            this.label7.Text = "Broj Lične Karte";
+            this.label7.Text = "Broj lične karte";
             // 
             // label6
             // 
@@ -367,9 +367,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label5.Location = new System.Drawing.Point(40, 171);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 17);
+            this.label5.Size = new System.Drawing.Size(89, 17);
             this.label5.TabIndex = 52;
-            this.label5.Text = "Datum Rođenja";
+            this.label5.Text = "Datum rođenja";
             // 
             // label4
             // 
@@ -381,7 +381,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 17);
             this.label4.TabIndex = 51;
-            this.label4.Text = "Devojačko Prezime";
+            this.label4.Text = "Devojačko prezime";
             // 
             // label3
             // 
@@ -502,6 +502,7 @@
             this.btKorisnik.TabIndex = 85;
             this.btKorisnik.Text = "Dodaj Korisnika";
             this.btKorisnik.UseVisualStyleBackColor = true;
+            this.btKorisnik.Click += new System.EventHandler(this.btKorisnik_Click);
             // 
             // button1
             // 

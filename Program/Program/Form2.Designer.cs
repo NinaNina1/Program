@@ -136,6 +136,7 @@
             this.label47 = new System.Windows.Forms.Label();
             this.tbTelefon = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
+            this.btKreiraj = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -150,9 +151,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label1.Location = new System.Drawing.Point(39, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(300, 34);
+            this.label1.Size = new System.Drawing.Size(298, 34);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Kreiraj Novog Korisnika";
+            this.label1.Text = "Kreiraj novog korisnika";
             // 
             // label3
             // 
@@ -216,9 +217,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label4.Location = new System.Drawing.Point(42, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 17);
+            this.label4.Size = new System.Drawing.Size(89, 17);
             this.label4.TabIndex = 26;
-            this.label4.Text = "Datum Rođenja";
+            this.label4.Text = "Datum rođenja";
             // 
             // label8
             // 
@@ -260,9 +261,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label5.Location = new System.Drawing.Point(42, 340);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 17);
+            this.label5.Size = new System.Drawing.Size(84, 17);
             this.label5.TabIndex = 30;
-            this.label5.Text = "Bračno Stanje";
+            this.label5.Text = "Bračno stanje";
             // 
             // label6
             // 
@@ -292,9 +293,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label7.Location = new System.Drawing.Point(509, 71);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(107, 17);
+            this.label7.Size = new System.Drawing.Size(106, 17);
             this.label7.TabIndex = 33;
-            this.label7.Text = "Zdravstveni Status";
+            this.label7.Text = "Zdravstveni status";
             // 
             // comboBoxZdravstevniStatus
             // 
@@ -318,7 +319,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(104, 17);
             this.label9.TabIndex = 35;
-            this.label9.Text = "Dijagnoza Bolesti";
+            this.label9.Text = "Dijagnoza bolesti";
             // 
             // tbDijagnozaBolesti
             // 
@@ -338,7 +339,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(108, 17);
             this.label10.TabIndex = 37;
-            this.label10.Text = "Mentakno Zdravlje";
+            this.label10.Text = "Mentakno zdravlje";
             // 
             // comboBoxMentalnoZdravlje
             // 
@@ -431,9 +432,9 @@
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label14.Location = new System.Drawing.Point(512, 366);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(163, 17);
+            this.label14.Size = new System.Drawing.Size(162, 17);
             this.label14.TabIndex = 45;
-            this.label14.Text = "Kontrola Fizioloških Potreba";
+            this.label14.Text = "Kontrola fizioloških potreba";
             // 
             // comboBoxFizioloskePotrebe
             // 
@@ -455,9 +456,9 @@
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label15.Location = new System.Drawing.Point(512, 396);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(118, 17);
+            this.label15.Size = new System.Drawing.Size(117, 17);
             this.label15.TabIndex = 47;
-            this.label15.Text = "Mogućnost Kretanja";
+            this.label15.Text = "Mogućnost kretanja";
             // 
             // comboBoxMogucnostKretanja
             // 
@@ -480,7 +481,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(118, 17);
             this.label16.TabIndex = 50;
-            this.label16.Text = "Sposobnost Ishrane";
+            this.label16.Text = "Sposobnost ishrane";
             // 
             // comboBoxSposobnostIshrane
             // 
@@ -503,7 +504,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(99, 17);
             this.label17.TabIndex = 52;
-            this.label17.Text = "Funkcija Gutanja";
+            this.label17.Text = "Funkcija gutanja";
             // 
             // comboBoxFunkcijaGutanja
             // 
@@ -524,12 +525,13 @@
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label18.Location = new System.Drawing.Point(512, 482);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(182, 17);
+            this.label18.Size = new System.Drawing.Size(181, 17);
             this.label18.TabIndex = 54;
-            this.label18.Text = "Pomoć Pri Kupanju/Nivo Pomoći";
+            this.label18.Text = "Pomoć pri kupanju/Nivo pomoći";
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btKreiraj);
             this.panel1.Controls.Add(this.tbPosebniZahtevi);
             this.panel1.Controls.Add(this.label47);
             this.panel1.Controls.Add(this.tbKoImJePomagaoPre);
@@ -654,7 +656,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(92, 17);
             this.label19.TabIndex = 60;
-            this.label19.Text = "Kontakt Osoba I";
+            this.label19.Text = "Kontakt osoba I";
             // 
             // label20
             // 
@@ -704,7 +706,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(96, 17);
             this.label22.TabIndex = 64;
-            this.label22.Text = "Kontakt Osoba II";
+            this.label22.Text = "Kontakt osoba II";
             // 
             // tbKontaktOsoba2
             // 
@@ -740,9 +742,9 @@
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label24.Location = new System.Drawing.Point(49, 210);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(91, 17);
+            this.label24.Size = new System.Drawing.Size(90, 17);
             this.label24.TabIndex = 69;
-            this.label24.Text = "Kućni Ljubimac";
+            this.label24.Text = "Kućni ljubimac";
             // 
             // tbKucniLjubimac
             // 
@@ -1278,7 +1280,7 @@
             // 
             this.tbKoImJePomagaoPre.Location = new System.Drawing.Point(522, 541);
             this.tbKoImJePomagaoPre.Name = "tbKoImJePomagaoPre";
-            this.tbKoImJePomagaoPre.Size = new System.Drawing.Size(337, 20);
+            this.tbKoImJePomagaoPre.Size = new System.Drawing.Size(362, 20);
             this.tbKoImJePomagaoPre.TabIndex = 120;
             // 
             // label46
@@ -1298,7 +1300,7 @@
             this.tbPosebniZahtevi.Location = new System.Drawing.Point(522, 591);
             this.tbPosebniZahtevi.Multiline = true;
             this.tbPosebniZahtevi.Name = "tbPosebniZahtevi";
-            this.tbPosebniZahtevi.Size = new System.Drawing.Size(226, 105);
+            this.tbPosebniZahtevi.Size = new System.Drawing.Size(362, 92);
             this.tbPosebniZahtevi.TabIndex = 122;
             // 
             // label47
@@ -1331,6 +1333,17 @@
             this.label48.Size = new System.Drawing.Size(50, 17);
             this.label48.TabIndex = 63;
             this.label48.Text = "Telefon";
+            // 
+            // btKreiraj
+            // 
+            this.btKreiraj.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btKreiraj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.btKreiraj.Location = new System.Drawing.Point(740, 700);
+            this.btKreiraj.Name = "btKreiraj";
+            this.btKreiraj.Size = new System.Drawing.Size(144, 28);
+            this.btKreiraj.TabIndex = 65;
+            this.btKreiraj.Text = "Kreiraj";
+            this.btKreiraj.UseVisualStyleBackColor = true;
             // 
             // KreirajKorisnika
             // 
@@ -1379,8 +1392,9 @@
             this.Controls.Add(this.tbPrezime);
             this.Controls.Add(this.tbIme);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "KreirajKorisnika";
-            this.Text = "Novi Korisnik";
+            this.Text = "Novi korisnik";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -1502,5 +1516,6 @@
         private System.Windows.Forms.TextBox tbZagrevanjeProstora;
         private System.Windows.Forms.TextBox tbTelefon;
         private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Button btKreiraj;
     }
 }

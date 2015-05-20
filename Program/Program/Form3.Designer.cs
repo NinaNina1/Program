@@ -80,9 +80,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label1.Location = new System.Drawing.Point(39, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(384, 34);
+            this.label1.Size = new System.Drawing.Size(382, 34);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Kreiraj Novu Gerontodomaćicu";
+            this.label1.Text = "Kreiraj novu gerontodomaćicu";
             // 
             // tbIme
             // 
@@ -244,7 +244,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label9.Location = new System.Drawing.Point(42, 449);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 17);
+            this.label9.Size = new System.Drawing.Size(50, 17);
             this.label9.TabIndex = 19;
             this.label9.Text = "Telefon";
             // 
@@ -537,7 +537,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "KreirajDomacicu";
-            this.Text = "Nova Gerontodomaćica";
+            this.Text = "Nova gerontodomaćica";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

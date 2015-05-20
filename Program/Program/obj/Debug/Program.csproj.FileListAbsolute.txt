@@ -24,3 +24,4 @@ E:\baza\Program\Program\Program\obj\Debug\Program.KreirajKorisnika.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.KreirajDomacicu.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.PostojecaDomacica.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.ListaKorisnika.resources
+E:\baza\Program\Program\Program\obj\Debug\Program.Form5.resources
