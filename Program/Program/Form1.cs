@@ -26,7 +26,6 @@ namespace Program
         {
             KreirajDomacicu kd = new KreirajDomacicu();
             kd.Show();
-            Gdomacica gdm = new Gdomacica();
            
         }
     }
