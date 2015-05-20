@@ -21,5 +21,13 @@ namespace Program
         {
 
         }
+
+        private void btDomacica_Click(object sender, EventArgs e)
+        {
+            KreirajDomacicu kd = new KreirajDomacicu();
+            kd.Show();
+            Gdomacica gdm = new Gdomacica();
+           
+        }
     }
 }

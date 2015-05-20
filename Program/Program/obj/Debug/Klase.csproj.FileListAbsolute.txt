@@ -1,0 +1,3 @@
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\bin\Debug\Program.exe.config
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.exe
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.pdb

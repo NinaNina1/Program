@@ -103,6 +103,7 @@
             this.btDomacica.TabIndex = 5;
             this.btDomacica.Text = "Nova Domaćica";
             this.btDomacica.UseVisualStyleBackColor = true;
+            this.btDomacica.Click += new System.EventHandler(this.btDomacica_Click);
             // 
             // btObrisi
             // 
