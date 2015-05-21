@@ -244,7 +244,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.label9.Location = new System.Drawing.Point(42, 449);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 17);
+            this.label9.Size = new System.Drawing.Size(49, 17);
             this.label9.TabIndex = 19;
             this.label9.Text = "Telefon";
             // 
@@ -363,9 +363,11 @@
             this.cbAlergije.TabIndex = 30;
             this.cbAlergije.Text = "Alergije";
             this.cbAlergije.UseVisualStyleBackColor = true;
+            this.cbAlergije.CheckedChanged += new System.EventHandler(this.cbAlergije_CheckedChanged);
             // 
             // tbAlergije
             // 
+            this.tbAlergije.Enabled = false;
             this.tbAlergije.Location = new System.Drawing.Point(747, 185);
             this.tbAlergije.Multiline = true;
             this.tbAlergije.Name = "tbAlergije";
@@ -384,9 +386,11 @@
             this.cbFizickaOgrc.TabIndex = 32;
             this.cbFizickaOgrc.Text = "Fizička Ograničenja";
             this.cbFizickaOgrc.UseVisualStyleBackColor = true;
+            this.cbFizickaOgrc.CheckedChanged += new System.EventHandler(this.cbFizickaOgrc_CheckedChanged);
             // 
             // tbFizickaOgrc
             // 
+            this.tbFizickaOgrc.Enabled = false;
             this.tbFizickaOgrc.Location = new System.Drawing.Point(747, 211);
             this.tbFizickaOgrc.Multiline = true;
             this.tbFizickaOgrc.Name = "tbFizickaOgrc";
@@ -405,9 +409,11 @@
             this.cbZdravstveniProb.TabIndex = 34;
             this.cbZdravstveniProb.Text = "Zdravstveni Problemi";
             this.cbZdravstveniProb.UseVisualStyleBackColor = true;
+            this.cbZdravstveniProb.CheckedChanged += new System.EventHandler(this.cbZdravstveniProb_CheckedChanged);
             // 
             // tbZdravstveniProblemi
             // 
+            this.tbZdravstveniProblemi.Enabled = false;
             this.tbZdravstveniProblemi.Location = new System.Drawing.Point(747, 240);
             this.tbZdravstveniProblemi.Multiline = true;
             this.tbZdravstveniProblemi.Name = "tbZdravstveniProblemi";
@@ -429,6 +435,7 @@
             // 
             // tbOdbijaDaRadi
             // 
+            this.tbOdbijaDaRadi.Enabled = false;
             this.tbOdbijaDaRadi.Location = new System.Drawing.Point(747, 267);
             this.tbOdbijaDaRadi.Name = "tbOdbijaDaRadi";
             this.tbOdbijaDaRadi.Size = new System.Drawing.Size(148, 20);
@@ -457,6 +464,7 @@
             this.cbOdbija.TabIndex = 39;
             this.cbOdbija.Text = "Odbija da radi";
             this.cbOdbija.UseVisualStyleBackColor = true;
+            this.cbOdbija.CheckedChanged += new System.EventHandler(this.cbOdbija_CheckedChanged);
             // 
             // tbHobi
             // 
@@ -467,6 +475,7 @@
             // 
             // btOdbijena
             // 
+            this.btOdbijena.DialogResult = System.Windows.Forms.DialogResult.No;
             this.btOdbijena.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btOdbijena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.btOdbijena.Location = new System.Drawing.Point(751, 519);
@@ -478,6 +487,7 @@
             // 
             // btPrihvacena
             // 
+            this.btPrihvacena.DialogResult = System.Windows.Forms.DialogResult.Yes;
             this.btPrihvacena.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btPrihvacena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
             this.btPrihvacena.Location = new System.Drawing.Point(579, 519);

@@ -14,6 +14,7 @@ namespace Program
 
     public partial class Form1 : Form
     {
+        
         void ucitaj(string ucitajtxt)
         {
             try
