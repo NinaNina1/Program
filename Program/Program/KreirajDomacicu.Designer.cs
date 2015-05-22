@@ -484,6 +484,7 @@
             this.btOdbijena.TabIndex = 41;
             this.btOdbijena.Text = "Odbijena";
             this.btOdbijena.UseVisualStyleBackColor = true;
+            this.btOdbijena.Click += new System.EventHandler(this.btOdbijena_Click);
             // 
             // btPrihvacena
             // 

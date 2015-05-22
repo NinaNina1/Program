@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Program
 {
+
     public partial class KreirajDomacicu : Form
     {
+        public Gdomacica gd;
         public KreirajDomacicu()
         {
             InitializeComponent();
@@ -69,11 +71,12 @@ namespace Program
             }
             
         }
-        
+       
         private void btPrihvacena_Click(object sender, EventArgs e)
         {
-            Gdomacica gd = new Gdomacica(tbIme.Text, tbPrezime.Text, tbDevojackoPrezime.Text, dateTimePicker1.Value, tbJMBG.Text, tbBrojLicne.Text, tbAdresa.Text, tbTelefon.Text, tbMobilni.Text, tbEmail.Text, tbObrazovanje.Text, tbRadnoIskustvo.Text, tbHobi.Text, cbPusac.Checked, new bulstring(cbAlergije.Checked, tbAlergije.Text), new bulstring(cbFizickaOgrc.Checked, tbFizickaOgrc.Text), new bulstring(cbZdravstveniProb.Checked, tbZdravstveniProblemi.Text), new bulstring(cbOdbija.Checked, tbOdbijaDaRadi.Text));
-            
+            gd = new Gdomacica(tbIme.Text, tbPrezime.Text, tbDevojackoPrezime.Text, dateTimePicker1.Value, tbJMBG.Text, tbBrojLicne.Text,
+                tbAdresa.Text, tbTelefon.Text, tbMobilni.Text, tbEmail.Text,
+                tbObrazovanje.Text, tbRadnoIskustvo.Text, tbHobi.Text, cbPusac.Checked, tbAlergije.Text, tbFizickaOgrc.Text, tbZdravstveniProblemi.Text, tbOdbijaDaRadi.Text);
             
         }
 
@@ -133,6 +136,11 @@ namespace Program
                 tbOdbijaDaRadi.Enabled = false ;
 
             }
+        }
+
+        private void btOdbijena_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

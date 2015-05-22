@@ -25,3 +25,4 @@ E:\baza\Program\Program\Program\obj\Debug\Program.PostojecaDomacica.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.ListaKorisnika.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.Form5.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Form5.resources
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
