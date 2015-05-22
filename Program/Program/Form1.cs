@@ -15,15 +15,14 @@ namespace Program
     public partial class Form1 : Form
     {
         
-        void ucitaj(string ucitajtxt)
+        void ucitaj()
         {
-            string konacnipath = Path.Combine(Globalne.pathbaze, ucitajtxt);
             try
             {
-                if (!File.Exists(ucitajtxt))
+                if (!File.Exists(Globalne.pathgd))
 		        {
-                    Directory.CreateDirectory(Globalne.pathbaze);
-                    var myFile = File.Create(konacnipath);
+                    Directory.CreateDirectory(Globalne.pathfolder);
+                    var myFile = File.Create(Globalne.pathgd);
                     myFile.Close();
                     
 		        }
@@ -34,28 +33,23 @@ namespace Program
                 
                 throw;
             }
-                StreamReader sr = new StreamReader(konacnipath);
-            if (!sr.EndOfStream)
-            {
-                Globalne.brojGdomacica = Convert.ToInt32(sr.ReadLine());
-               
-            }
-            else
-            {
-                Globalne.brojGdomacica = 0;
-            }
+            StreamReader srgd = new StreamReader(Globalne.pathgd);
+
             Gdomacica gd;
             bool ispravnost=false;
             for (int i = 0; i < Globalne.brojGdomacica; i++)
             {
-                gd = new Gdomacica(sr,ref ispravnost); 
+                ispravnost = false;
+                gd = new Gdomacica(srgd,ref ispravnost); 
                 if (ispravnost)
                 {
                     Globalne.poJMBG.Add(gd.JMBG, gd);
                     Globalne.poImenu.Add(gd.ime, gd);
                     Globalne.poPrezimenu.Add(gd.prezime, gd);
                 }
+                
             }
+            srgd.Close();
             return;
         }
 
@@ -85,6 +79,7 @@ namespace Program
             if (dr == DialogResult.Yes)
             {
                 MessageBox.Show("yes");
+                kd.gd.Upis();
             }
             else if (dr==DialogResult.No)
             {
@@ -99,7 +94,7 @@ namespace Program
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            ucitaj("baze.data");
+            ucitaj();
         }
 
         private void btKorisnik_Click(object sender, EventArgs e)

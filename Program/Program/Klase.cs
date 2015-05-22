@@ -51,43 +51,43 @@ namespace Program
         public Gdomacica(StreamReader sr, ref Boolean ispravnost)
         {
             try
-            {
-                this.ime = sr.ReadLine();
-                this.prezime = sr.ReadLine();
-                this.dprezime = sr.ReadLine();
-                this.dtmrodjenja = new DateTime(Convert.ToInt32(sr.ReadLine()), Convert.ToInt32(sr.ReadLine()), Convert.ToInt32(sr.ReadLine()));
-                this.JMBG = sr.ReadLine();
-                this.BrLK = sr.ReadLine();
+            {              
+                ime = sr.ReadLine();
+                prezime = sr.ReadLine();
+                dprezime = sr.ReadLine();
+                dtmrodjenja = new DateTime(Convert.ToInt32(sr.ReadLine()), Convert.ToInt32(sr.ReadLine()), Convert.ToInt32(sr.ReadLine()));
+                JMBG = sr.ReadLine();
+                BrLK = sr.ReadLine();
                 string pomocni = sr.ReadLine();
-                this.Adresa = "";
+                Adresa = "";
                 while (pomocni != "* * * * * * * * * *")
                 {
                     this.Adresa += pomocni;
                     pomocni = sr.ReadLine();
                 }
-                this.brTel = sr.ReadLine();
-                this.brMobTel = sr.ReadLine();
-                this.email = sr.ReadLine();
-                this.obrazovanje = "";
+                brTel = sr.ReadLine();
+                brMobTel = sr.ReadLine();
+                email = sr.ReadLine();
+                obrazovanje = "";
                 pomocni = sr.ReadLine();
                 while (pomocni != "-* * * * * * * * * *-")
                 {
-                    this.obrazovanje += pomocni;
-                    pomocni = sr.ReadLine() + "\n";
+                    obrazovanje += pomocni + "\n";
+                    pomocni = sr.ReadLine();
                 }
                 pomocni = sr.ReadLine();
-                this.radnoIskustvo = "";
+                radnoIskustvo = "";
                 while (pomocni != "+* * * * * * * * * *+")
                 {
-                    this.radnoIskustvo += pomocni;
-                    pomocni = sr.ReadLine() + "\n";
+                    radnoIskustvo += pomocni + "\n";
+                    pomocni = sr.ReadLine();
                 }
-                this.pusac = Convert.ToBoolean(sr.ReadLine());
-                this.alergije = sr.ReadLine();
-                this.FOgranicenja = sr.ReadLine();
-                this.ZdrProb = sr.ReadLine();
-                this.OdbRadi = sr.ReadLine();
-                this.hobi = sr.ReadLine();
+                pusac = Convert.ToBoolean(sr.ReadLine());
+                alergije = sr.ReadLine();
+                FOgranicenja = sr.ReadLine();
+                ZdrProb = sr.ReadLine();
+                OdbRadi = sr.ReadLine();
+                hobi = sr.ReadLine();
                 if (sr.ReadLine() == "====================")
                     ispravnost = true;
                 else
@@ -99,6 +99,37 @@ namespace Program
                 throw;
             }
             
+        }
+        public void Upis()
+        {
+            StreamWriter sw = new StreamWriter(Globalne.pathgd);
+            sw.WriteLine(ime);
+            sw.WriteLine(prezime);
+            sw.WriteLine(dprezime);
+            sw.WriteLine(dtmrodjenja.Year.ToString());
+            sw.WriteLine(dtmrodjenja.Month.ToString());
+            sw.WriteLine(dtmrodjenja.Day.ToString());
+            sw.WriteLine(JMBG);
+            sw.WriteLine(BrLK);
+            sw.Write(Adresa);
+            sw.WriteLine("\n"+"* * * * * * * * * *");
+            sw.WriteLine(brTel);
+            sw.WriteLine(brMobTel);
+            sw.WriteLine(email);
+            sw.Write(obrazovanje);
+            sw.WriteLine("\n"+"-* * * * * * * * * *-");
+            sw.Write(radnoIskustvo);
+            sw.WriteLine("\n" + "+* * * * * * * * * *+");
+            sw.WriteLine(pusac.ToString());
+            sw.WriteLine(alergije);
+            sw.WriteLine(FOgranicenja);
+            sw.WriteLine(ZdrProb);
+            sw.WriteLine(OdbRadi);
+            sw.WriteLine(hobi);
+            sw.WriteLine("====================");
+            sw.Close();
+                
+
         }
 
         public string PunoIme()

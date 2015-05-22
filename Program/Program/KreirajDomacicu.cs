@@ -42,6 +42,10 @@ namespace Program
             {
                 tbJMBG.ForeColor = Color.Red;
             }
+            else
+            {
+                tbJMBG.ForeColor = Color.Black;
+            }
         }
 
         private void tbBrojLicne_Validating(object sender, CancelEventArgs e)
@@ -50,6 +54,10 @@ namespace Program
             if (tekst.Length != 9)
             {
                 tbBrojLicne.ForeColor = Color.Red;
+            }
+            else
+            {
+                tbBrojLicne.ForeColor = Color.Black;
             }
             
 
@@ -74,9 +82,11 @@ namespace Program
        
         private void btPrihvacena_Click(object sender, EventArgs e)
         {
+
             gd = new Gdomacica(tbIme.Text, tbPrezime.Text, tbDevojackoPrezime.Text, dateTimePicker1.Value, tbJMBG.Text, tbBrojLicne.Text,
                 tbAdresa.Text, tbTelefon.Text, tbMobilni.Text, tbEmail.Text,
                 tbObrazovanje.Text, tbRadnoIskustvo.Text, tbHobi.Text, cbPusac.Checked, tbAlergije.Text, tbFizickaOgrc.Text, tbZdravstveniProblemi.Text, tbOdbijaDaRadi.Text);
+            Globalne.brojGdomacica++;
             
         }
 
