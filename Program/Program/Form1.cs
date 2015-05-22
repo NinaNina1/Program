@@ -26,16 +26,29 @@ namespace Program
                     myFile.Close();
                     
 		        }
+                if(!File.Exists(Globalne.pathsettings))
+                {
+                    var myFile = File.Create(Globalne.pathsettings);
+                    myFile.Close();
+                }
+                if (!File.Exists(Globalne.pathkor))
+                {
+                    var myFile = File.Create(Globalne.pathkor);
+                    myFile.Close();
+                }
                 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                
-                throw;
+
+                MessageBox.Show(ex.Message, "Tehnicka Greska");
             }
             StreamReader srgd = new StreamReader(Globalne.pathgd);
-
+            StreamReader srst = new StreamReader(Globalne.pathsettings);
+            StreamReader srkor = new StreamReader(Globalne.pathkor);
             Gdomacica gd;
+            Globalne.brojGdomacica = Convert.ToInt32(srst.ReadLine());
+            Globalne.brojKorisnika = Convert.ToInt32(srst.ReadLine());
             bool ispravnost=false;
             for (int i = 0; i < Globalne.brojGdomacica; i++)
             {
@@ -50,10 +63,10 @@ namespace Program
                 
             }
             srgd.Close();
+            srst.Close();
+            srkor.Close();
             return;
         }
-
-
 
 
 
@@ -67,10 +80,6 @@ namespace Program
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btDomacica_Click(object sender, EventArgs e)
         {
@@ -84,7 +93,6 @@ namespace Program
             else if (dr==DialogResult.No)
             {
 
-                MessageBox.Show("no");
             }
             
             
@@ -103,9 +111,17 @@ namespace Program
             DialogResult dr=kk.ShowDialog();
             if (dr == DialogResult.Yes)
             {
-                MessageBox.Show("yes");
+
             }
 
+        }
+
+        private void btSacuvaj_Click(object sender, EventArgs e)
+        {
+            StreamWriter swst = new StreamWriter(Globalne.pathsettings,false);
+            swst.WriteLine(Globalne.brojGdomacica.ToString());
+            swst.WriteLine(Globalne.brojKorisnika.ToString());
+            swst.Close();
         }
     }
 }

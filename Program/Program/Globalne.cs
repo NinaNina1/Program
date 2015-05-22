@@ -13,6 +13,7 @@ namespace Program
         public static SortedDictionary<string, Gdomacica> poPrezimenu = new SortedDictionary<string, Gdomacica>();
         public static Dictionary<string, Gdomacica> poJMBG = new Dictionary<string, Gdomacica>();
         public static int brojGdomacica;
+        public static int brojKorisnika;
         public static readonly string pathfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "FNBaza");
         public static readonly string pathgd = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "FNBaza", "gd.data");
         public static readonly string pathkor = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "FNBaza", "kor.data");

@@ -96,7 +96,6 @@ namespace Program
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message,"Tehnicka Greska");
-                throw;
             }
             
         }

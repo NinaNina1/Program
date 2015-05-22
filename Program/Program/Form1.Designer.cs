@@ -41,6 +41,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btSacuvaj = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,7 +58,6 @@
             this.label1.Size = new System.Drawing.Size(121, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pretraga";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -177,6 +177,18 @@
             this.pictureBox4.TabIndex = 12;
             this.pictureBox4.TabStop = false;
             // 
+            // btSacuvaj
+            // 
+            this.btSacuvaj.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSacuvaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.btSacuvaj.Location = new System.Drawing.Point(38, 519);
+            this.btSacuvaj.Name = "btSacuvaj";
+            this.btSacuvaj.Size = new System.Drawing.Size(144, 28);
+            this.btSacuvaj.TabIndex = 6;
+            this.btSacuvaj.Text = "Sačuvaj";
+            this.btSacuvaj.UseVisualStyleBackColor = true;
+            this.btSacuvaj.Click += new System.EventHandler(this.btSacuvaj_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,6 +197,7 @@
             this.ClientSize = new System.Drawing.Size(579, 559);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.btSacuvaj);
             this.Controls.Add(this.btObrisi);
             this.Controls.Add(this.btDomacica);
             this.Controls.Add(this.btKorisnik);
@@ -223,6 +236,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button btSacuvaj;
     }
 }
 
