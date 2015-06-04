@@ -41,10 +41,26 @@ namespace Program
             this.obrazovanje = obrazovanje;
             this.radnoIskustvo = radnoIskustvo;
             this.hobi = hobi;
-            this.alergije = alergije;
-            this.FOgranicenja = FOgranicenja;
-            this.ZdrProb = ZdrProb;
-            this.OdbRadi = OdbRadi;
+
+            if (alergije == "Ako da, navedite")
+                this.alergije = "";            
+            else
+                this.alergije = alergije;
+
+            if (FOgranicenja == "Ako da, navedite")
+                this.FOgranicenja = "";
+            else
+                this.FOgranicenja = FOgranicenja;
+
+            if (ZdrProb == "Ako da, navedite")
+                this.ZdrProb = "";
+            else
+                this.ZdrProb = ZdrProb;
+
+            if (OdbRadi == "Ako da, navedite")
+                this.OdbRadi = "";
+            else
+                this.OdbRadi = OdbRadi;
             this.pusac = pusac;
         }
 
@@ -101,7 +117,7 @@ namespace Program
         }
         public void Upis()
         {
-            StreamWriter sw = new StreamWriter(Globalne.pathgd);
+            StreamWriter sw = new StreamWriter(Globalne.pathgd, true);
             sw.WriteLine(ime);
             sw.WriteLine(prezime);
             sw.WriteLine(dprezime);

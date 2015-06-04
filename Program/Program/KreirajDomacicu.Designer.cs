@@ -440,7 +440,6 @@
             this.tbOdbijaDaRadi.Name = "tbOdbijaDaRadi";
             this.tbOdbijaDaRadi.Size = new System.Drawing.Size(148, 20);
             this.tbOdbijaDaRadi.TabIndex = 37;
-            this.tbOdbijaDaRadi.Text = "Ako postoji nešto, navedite";
             // 
             // label16
             // 

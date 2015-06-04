@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Korisnici = new System.Windows.Forms.ListBox();
-            this.Domaćice = new System.Windows.Forms.ListBox();
+            this.LBdomacice = new System.Windows.Forms.ListBox();
             this.btKorisnik = new System.Windows.Forms.Button();
             this.btDomacica = new System.Windows.Forms.Button();
             this.btObrisi = new System.Windows.Forms.Button();
@@ -74,13 +74,13 @@
             this.Korisnici.Size = new System.Drawing.Size(218, 355);
             this.Korisnici.TabIndex = 2;
             // 
-            // Domaćice
+            // LBdomacice
             // 
-            this.Domaćice.FormattingEnabled = true;
-            this.Domaćice.Location = new System.Drawing.Point(320, 145);
-            this.Domaćice.Name = "Domaćice";
-            this.Domaćice.Size = new System.Drawing.Size(218, 355);
-            this.Domaćice.TabIndex = 3;
+            this.LBdomacice.FormattingEnabled = true;
+            this.LBdomacice.Location = new System.Drawing.Point(320, 145);
+            this.LBdomacice.Name = "LBdomacice";
+            this.LBdomacice.Size = new System.Drawing.Size(218, 355);
+            this.LBdomacice.TabIndex = 3;
             // 
             // btKorisnik
             // 
@@ -201,7 +201,7 @@
             this.Controls.Add(this.btObrisi);
             this.Controls.Add(this.btDomacica);
             this.Controls.Add(this.btKorisnik);
-            this.Controls.Add(this.Domaćice);
+            this.Controls.Add(this.LBdomacice);
             this.Controls.Add(this.Korisnici);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -226,7 +226,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox Korisnici;
-        private System.Windows.Forms.ListBox Domaćice;
+        private System.Windows.Forms.ListBox LBdomacice;
         private System.Windows.Forms.Button btKorisnik;
         private System.Windows.Forms.Button btDomacica;
         private System.Windows.Forms.Button btObrisi;

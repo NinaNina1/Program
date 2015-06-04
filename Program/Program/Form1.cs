@@ -50,6 +50,7 @@ namespace Program
             Globalne.brojGdomacica = Convert.ToInt32(srst.ReadLine());
             Globalne.brojKorisnika = Convert.ToInt32(srst.ReadLine());
             bool ispravnost=false;
+            
             for (int i = 0; i < Globalne.brojGdomacica; i++)
             {
                 ispravnost = false;
@@ -67,6 +68,13 @@ namespace Program
             srkor.Close();
             return;
         }
+
+
+        void napunilb ()
+        {
+
+        }
+
 
 
 
@@ -87,8 +95,8 @@ namespace Program
             DialogResult dr = kd.ShowDialog();
             if (dr == DialogResult.Yes)
             {
-                MessageBox.Show("yes");
                 kd.gd.Upis();
+                LBdomacice.Items.Add(kd.gd.PunoIme());
             }
             else if (dr==DialogResult.No)
             {
@@ -103,6 +111,10 @@ namespace Program
         {
 
             ucitaj();
+            foreach (KeyValuePair<string, Gdomacica> entry in Globalne.poImenu)
+            {
+                LBdomacice.Items.Add(entry.Value.PunoIme());
+            }
         }
 
         private void btKorisnik_Click(object sender, EventArgs e)
