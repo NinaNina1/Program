@@ -127,21 +127,26 @@ namespace Program
             sw.WriteLine(JMBG);
             sw.WriteLine(BrLK);
             sw.Write(Adresa);
-            sw.WriteLine("\n"+"* * * * * * * * * *");
+            sw.WriteLine();
+            sw.WriteLine("* * * * * * * * * *");
             sw.WriteLine(brTel);
             sw.WriteLine(brMobTel);
             sw.WriteLine(email);
             sw.Write(obrazovanje);
-            sw.WriteLine("\n"+"-* * * * * * * * * *-");
+            sw.WriteLine();
+            sw.WriteLine("-* * * * * * * * * *-");
             sw.Write(radnoIskustvo);
-            sw.WriteLine("\n" + "+* * * * * * * * * *+");
+            sw.WriteLine();
+            sw.WriteLine("+* * * * * * * * * *+");
             sw.WriteLine(pusac.ToString());
             sw.WriteLine(alergije);
             sw.WriteLine(FOgranicenja);
             sw.WriteLine(ZdrProb);
             sw.WriteLine(OdbRadi);
             sw.WriteLine(hobi);
+            sw.WriteLine();
             sw.WriteLine("====================");
+            sw.WriteLine();
             sw.Close();
                 
 
