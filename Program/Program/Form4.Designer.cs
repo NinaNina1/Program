@@ -580,6 +580,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "PostojecaDomacica";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.PostojecaDomacica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

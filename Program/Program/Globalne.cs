@@ -12,6 +12,11 @@ namespace Program
         public static SortedDictionary<string, Gdomacica> poImenu = new SortedDictionary<string, Gdomacica>();
         public static SortedDictionary<string, Gdomacica> poPrezimenu = new SortedDictionary<string, Gdomacica>();
         public static Dictionary<string, Gdomacica> poJMBG = new Dictionary<string, Gdomacica>();
+
+        public static SortedDictionary<string, Korisnici> kpoImenu = new SortedDictionary<string, Korisnici>();
+        public static SortedDictionary<string, Korisnici> kpoPrezimenu = new SortedDictionary<string, Korisnici>();
+
+
         public static int brojGdomacica;
         public static int brojKorisnika;
         public static readonly string pathfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "FNBaza");

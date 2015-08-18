@@ -12,6 +12,7 @@ C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.exe
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.pdb
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\bin\Debug\Program.exe
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\bin\Debug\Program.pdb
+C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Form1.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.KreirajKorisnika.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.KreirajDomacicu.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.PostojecaDomacica.resources
@@ -25,4 +26,3 @@ E:\baza\Program\Program\Program\obj\Debug\Program.ListaKorisnika.resources
 E:\baza\Program\Program\Program\obj\Debug\Program.Form5.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Form5.resources
 C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
-C:\Users\Filip\Documents\GitHub\Program\Program\Program\obj\Debug\Program.Pocetnaforma.resources
