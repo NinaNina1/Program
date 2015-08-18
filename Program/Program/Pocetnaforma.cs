@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace Program
 {
 
-    public partial class Form1 : Form
+    public partial class Pocetnaforma : Form
     {
         
         void ucitaj()
@@ -81,7 +81,7 @@ namespace Program
 
 
 
-        public Form1()
+        public Pocetnaforma()
         {
             InitializeComponent();
 

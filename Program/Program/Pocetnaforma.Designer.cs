@@ -1,6 +1,6 @@
 ﻿namespace Program
 {
-    partial class Form1
+    partial class Pocetnaforma
     {
         /// <summary>
         /// Required designer variable.
