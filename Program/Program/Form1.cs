@@ -112,7 +112,7 @@ namespace Program
        
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("nina konacno vidi");
             ucitaj();
             foreach (KeyValuePair<string, Gdomacica> entry in Globalne.poImenu)
             {
